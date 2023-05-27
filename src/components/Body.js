@@ -6,7 +6,7 @@ function Body(props) {
     return (
         <div className='w-full border p-3'>
             {/* <Filter/> */}
-            <div className='flex flex-wrap  gap-3'>
+            <div className='flex flex-wrap gap-[-0.25rem] '>
             <List/>
             </div>
 

@@ -1,9 +1,9 @@
 import React from 'react';
 
-function Card(props) {
+function Card({cardInfo}) {
     return (
-        <div>
-            Card
+        <div className='bg-white p-2 mt-2 shadow-xl rounded-md'>
+           {cardInfo.title}
         </div>
     );
 }
