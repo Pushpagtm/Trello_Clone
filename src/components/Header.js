@@ -2,7 +2,7 @@ import React from 'react';
 
 function Header(props) {
     return (
-        <div>
+        <div className='border p-3 bg-blue-100'>
             header
         </div>
     );
